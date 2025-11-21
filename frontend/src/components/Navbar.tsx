@@ -47,7 +47,7 @@ function NavBar() {
                                     md:hover:text-blue-700
                                     md:bg-transparent text-gray-900 dark:text-white`} 
                                 >
-                                    About me
+                                    Sobre Mim
                                 </Link>
                             </li>
                             <li>
@@ -58,7 +58,7 @@ function NavBar() {
                                     hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 
                                     md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
                                 >
-                                    Resume
+                                    Currículo
                                 </Link>
                             </li>
                             <li>
@@ -69,7 +69,7 @@ function NavBar() {
                                     hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 
                                     md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
                                 >
-                                    Portfolio
+                                    Portfólio
                                 </Link>
                             </li>
                             <li>
