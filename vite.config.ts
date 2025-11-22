@@ -8,11 +8,12 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "/MyWebsite/",
+  base: "/", // same as ""
   
 })
 
 /**
+ * AI generated answer to deploying to root user path in github pages (<user>.github.io):
  * To serve a GitHub Pages site from the root path, you should create a repository named <username>.github.io 
  * and place your index.html file directly in the root of that repository. This way, your site will be accessible
  *  at https://<username>.github.io without any additional path
