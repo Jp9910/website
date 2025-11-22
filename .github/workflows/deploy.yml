@@ -30,6 +30,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+      - name: Display files and navigate
+        run: pwd && ls -R . && cd ./frontend
       - name: Set up Node
         uses: actions/setup-node@v6
         with:
