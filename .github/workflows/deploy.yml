@@ -40,6 +40,7 @@ jobs:
         with:
           node-version: 22.x # ou "lts/*"
           cache: 'npm'
+          cache-dependency-path: subdir/package-lock.json # especificar local do packagelock pois não está na raiz do repositorio
       - name: Install dependencies
         run: npm ci
       - name: Build
