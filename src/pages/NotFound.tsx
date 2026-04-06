@@ -13,7 +13,7 @@ function NotFound () {
             <div className="row-start-1 row-end-4"></div>
             </div>
             <div className="flex justify-center">
-                <BotaoEstilizado aoClicar={() => {navigate('/website')}} > {"< Return"} </BotaoEstilizado>
+                <BotaoEstilizado aoClicar={() => {navigate('/')}} > {"< Return"} </BotaoEstilizado>
             </div>
         </div>
     )

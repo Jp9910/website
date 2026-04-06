@@ -23,7 +23,7 @@ function AboutMe() {
 
                         Embora a maior parte da minha experiência seja em desenvolvimento web, sou motivado por funções que combinam 
                         resolução de problemas, dados, segurança e criatividade.&nbsp;
-                        <Link to={"/website/portfolio"} className='text-blue-400'>Meus projetos acadêmicos e pessoais</Link> abrangem uma 
+                        <Link to={"/portfolio"} className='text-blue-400'>Meus projetos acadêmicos e pessoais</Link> abrangem uma 
                         ampla gama de tecnologias modernas. Também adoro colaborar em equipes dinâmicas, sempre buscando causar um impacto 
                         positivo e crescer profissionalmente.
                     </p>

@@ -14,13 +14,14 @@ function Blog() {
             </div>
             <hr className="w-124 mx-auto h-px my-8 bg-neutral-400 border-0"></hr>
             <article className="font-serif flex text-md whitespace-pre-wrap prose mx-auto">{`
-First of all, it's not all just black and white.
 
-These thoughts are not on what could be "considered art" (that is a much deeper topic), but instead about *who* should get credit and what is considered a tool when creating art.
+Art is a means for expression. No one in particular can say if something is art or if it's not. Therefore I don't think the focus point when discussing art made with generative machine learning models should be what could be considered art, but instead *who* should get credit and what is considered a mere tool when creating art.
+
+And it's not all just black and white.
 
 First, I make a parallel with scientific research.
-    - A "collage" of existing scientific articles is accepted as its own work and can lead to new knowledge - Systematic mappings, literature summaries, etc. 
-    - But the important point here is that there MUST be references in the work. If there aren't, it constitutes plagiarism. Sometimes even with references, it would still constitute plagiarism, depending on the nature of the work/piece.
+    - A "collage" of existing scientific articles is accepted as its own work and can lead to new knowledge - Such as systematic mappings or literature summaries. 
+    - But the important thing on those is that there MUST be appropriate citations to the references. If there aren't, it constitutes plagiarism. Sometimes even with references, it would still constitute plagiarism, depending on the nature of the work/piece.
 
 Now I consider 2 cases where who should get credit for the art is very clear, case "white" and case "black", along with some cases "inbetween" them, where it's not necessarily clear who should get credit.
 
@@ -75,10 +76,10 @@ Is a machine learning model trained on the works of thousands of artists a tool?
 On another note...
 
 Many don't realize, but both humans and machines learn the same way - by example. 
-Having said that, some may think that there's no difference between how a human paints from learning from an artist's artwork and how a ML model paints from learning from the same artist's artwork.
+Having said that, some [machine learning enthusiasts] may think that there's no difference between how a human paints from learning from an artist's artwork and how a ML model paints from learning from the same artist's artwork.
 Well I can think of 2 differences:
-    - 1st is that humans are non deterministic and inherently "random", while ML models follow deterministic rules during training, even though there is some randomness involved too. 
-    - 2nd is that a ML model can't, by themselves, go beyond what was learned and create something new. They don't have "creativity" systems (yet?). While humans can, and do.
+    - 1st is that humans are non deterministic and inherently "random", while ML models follow deterministic rules during training, even though there is some randomness involved. 
+    - 2nd is that a ML model can't, by themselves, go beyond what was learned and create something new. They don't have "creativity" (yet?). While humans can, and do.
 
             `}</article>
 

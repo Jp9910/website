@@ -11,10 +11,10 @@ function NavBar() {
     const localUrl = useLocation()
 
     const menusNavbar = [
-        { href: '/website', label: 'About Me' },
-        { href: '/website/portfolio', label: 'Portfolio' },
-        { href: '/website/resume', label: 'Resumé' },
-        { href: '/website/blog', label: 'Blog' },
+        { href: '/', label: 'About Me' },
+        { href: '/portfolio', label: 'Portfolio' },
+        { href: '/resume', label: 'Resumé' },
+        { href: '/blog', label: 'Blog' },
     ];
 
     /**
@@ -34,7 +34,7 @@ function NavBar() {
         <header id="section-navbar" className="mb-10">
             <nav className="bg-white dark:bg-gray-800 w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
                 <section className="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
-                    <Link to="/website" className="flex items-center space-x-3 rtl:space-x-reverse">
+                    <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                         {/* <img src="src/assets/letraJ.png" className="h-8" alt="PFP" rounded-sm /> */}
 
                         <div className="relative inline-flex items-center justify-center w-10 h-10 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
@@ -65,8 +65,8 @@ function NavBar() {
                             })}
 
                             {/* <li>
-                                <Link to="/website/blog" id="navbar-link-blog"
-                                    className={`${localUrl.pathname==="/website/blog" ? "md:text-blue-700 md:dark:text-blue-500" : ""}
+                                <Link to="/blog" id="navbar-link-blog"
+                                    className={`${localUrl.pathname==="/blog" ? "md:text-blue-700 md:dark:text-blue-500" : ""}
                                     block py-2 px-3 rounded-sm md:p-0
                                     text-gray-900 
                                     hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 

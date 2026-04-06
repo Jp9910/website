@@ -33,7 +33,7 @@ function AboutMe() {
                         significant real-world value. <br></br>
 
                         Although most of my experience is in web development, I am motivated by roles that combine problem-solving, data,
-                        security, and creativity.&nbsp; <Link to={"/website/portfolio"} className='text-blue-400'>My academic and personal projects</Link> encompass a wide range of modern technologies. I also
+                        security, and creativity.&nbsp; <Link to={"/portfolio"} className='text-blue-400'>My academic and personal projects</Link> encompass a wide range of modern technologies. I also
                         love collaborating in dynamic teams, always seeking to make a positive impact and grow professionally.
                     </p>
                 </div>

@@ -13,16 +13,17 @@ function Roteador() {
     // const url = window.location.href.split("/")
     // console.log("url:",url)
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="website">
             <ContainerCaixa>
                 <NavBar />
                 <Routes>
-                        <Route path="/website" element={<AboutMe />}/>
+                        <Route path="/" element={<AboutMe />}/>
                         <Route path="*" element={<NotFound />}/>
-                        <Route path="/website/resume" element={<Resume />}/>
-                        <Route path="/website/portfolio" element={<Portfolio />}/>
-                        <Route path="/website/blog" element={<Blog />}/>
-                        <Route path="/*" element={<Navigate to="/website" replace />}/>
+                        <Route path="/resume" element={<Resume />}/>
+                        <Route path="/portfolio" element={<Portfolio />}/>
+                        <Route path="/blog" element={<Blog />}/>
+
+                        {/* <Route path="*" element={<Navigate to="/" replace />}/> */}
                 </Routes>
                 <Rodape />
             </ContainerCaixa>
