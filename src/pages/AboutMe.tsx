@@ -40,7 +40,7 @@ function AboutMe() {
             </div>
 
             <section id="whatido" className="mb-8 lg:mb-16">
-                <h1 className="text-2xl mb-4 border-b border-gray-200 dark:border-gray-600">Experience and Interests</h1>
+                <h1 className="text-2xl mb-4 border-b border-gray-200 dark:border-gray-600">Professional Experience and Interests</h1>
                 <div className="grid w-auto h-auto grid-cols-1 lg:grid-cols-2 place-content-stretch gap-x-20 gap-y-8 mx-6 my-2">
 
                     <div className="flex gap-4 w-auto">
@@ -74,7 +74,7 @@ function AboutMe() {
                         <div className="flex-col">
                             <h1 className="text-lg font-bold">Machine Learning</h1>
                             <p className="lg:text-justify">
-                                (In construction)
+                                (Under construction)
                             </p>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ function AboutMe() {
                         <div className="flex-col">
                             <h1 className="text-lg font-bold">Human-Computer Interaction</h1>
                             <p className="lg:text-justify">
-                                (In construction)
+                                (Under construction)
                             </p>
                         </div>
                     </div>

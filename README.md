@@ -4,7 +4,7 @@ My personal website
 
 ## Running the project:
 
->cd frontend
+>cd site
 
 >npm install
 
