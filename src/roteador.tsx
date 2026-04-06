@@ -1,4 +1,5 @@
-import {BrowserRouter, Routes, Route, Navigate} from 'react-router'
+import {BrowserRouter, Routes, Route} from 'react-router'
+// import { Navigate } from 'react-router'
 import NotFound from './pages/NotFound'
 import Rodape from './components/Rodape'
 import ContainerCaixa from './components/ContainerCaixa'
