@@ -74,7 +74,7 @@ function AboutMe() {
                         <div className="flex-col">
                             <h1 className="text-lg font-bold">Machine Learning</h1>
                             <p className="lg:text-justify">
-                                I have a strong interest in Machine Learning and have developed practical experience through academic and personal projects. I have completed courses in Machine Learning, Natural Language Processing, and Computer Vision, working with topics ranging from data preprocessing and model evaluation to neural networks and computer vision. I've also developed ML applications, including a web application that collects user drawings and uses a trained model to classify them, as well as a fake-news classification application. My projects have involved tools such as Python, TensorFlow, scikit-learn, NumPy, Pandas, and Matplotlib.
+                                I have a strong interest in Machine Learning and have practical experience through academic and personal projects. I have  worked with topics ranging from data preprocessing and model evaluation to neural networks and computer vision. I've also developed ML applications, including a <a className="text-blue-500" target="_blank" href="https://sketchic.netlify.app/"> pubicly available  web application</a> that users can draw in and have a fine-tuned model classify the drawings, as well as a fake-news classification application.
                             </p>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ function AboutMe() {
                         <div className="flex-col">
                             <h1 className="text-lg font-bold">Human-Computer Interaction</h1>
                             <p className="lg:text-justify">
-                                I have experience applying Human-Computer Interaction principles to the design and evaluation of interactive applications. This is an area that interests me greatly (I also like psychology a lot) and one of the topics of my graduate research. I've worked on usability evaluation of web-based games, identifying interface issues through hands-on testing and analyzing them using Nielsen's usability heuristics. My experience developing interactive web applications also allows me to consider usability and user interaction throughout the development process.
+                                HCI is an area that interests me greatly (I also like psychology a lot) and one of the topics of my graduate research. Moreover, I have experience applying HCI principles to the design and evaluation of interactive applications. I've worked on a usability evaluation of web-based game, identifying interface issues through hands-on testing and analyzing and presenting them compared to Nielsen's usability heuristics. My experience developing interactive web applications also allows me to consider usability and user interaction throughout the development process.
                             </p>
                         </div>
                     </div>
