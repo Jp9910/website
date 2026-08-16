@@ -74,7 +74,7 @@ function AboutMe() {
                         <div className="flex-col">
                             <h1 className="text-lg font-bold">Machine Learning</h1>
                             <p className="lg:text-justify">
-                                (Under construction)
+                                I have a strong interest in Machine Learning and have developed practical experience through academic and personal projects. I have completed courses in Machine Learning, Natural Language Processing, and Computer Vision, working with topics ranging from data preprocessing and model evaluation to neural networks and computer vision. I've also developed ML applications, including a web application that collects user drawings and uses a trained model to classify them, as well as a fake-news classification application. My projects have involved tools such as Python, TensorFlow, scikit-learn, NumPy, Pandas, and Matplotlib.
                             </p>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ function AboutMe() {
                         <div className="flex-col">
                             <h1 className="text-lg font-bold">Human-Computer Interaction</h1>
                             <p className="lg:text-justify">
-                                (Under construction)
+                                I have experience applying Human-Computer Interaction principles to the design and evaluation of interactive applications. This is an area that interests me greatly (I also like psychology a lot) and one of the topics of my graduate research. I've worked on usability evaluation of web-based games, identifying interface issues through hands-on testing and analyzing them using Nielsen's usability heuristics. My experience developing interactive web applications also allows me to consider usability and user interaction throughout the development process.
                             </p>
                         </div>
                     </div>
